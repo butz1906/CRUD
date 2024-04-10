@@ -1,0 +1,14 @@
+# Active le moteur de réécriture d'URL
+RewriteEngine On
+
+# Redirige les requêtes pour la racine vers le répertoire "public/"
+RewriteRule ^$ public/ [L]
+
+# Vérifie si le chemin demandé ne correspond pas à un fichier existant
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Vérifie si le chemin demandé ne correspond pas à un répertoire existant
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirige toutes les autres requêtes vers le répertoire "public/"
+RewriteRule ^(.*)$ public/$1 [L]
