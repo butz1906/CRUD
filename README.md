@@ -5,23 +5,36 @@ Ce projet consiste en une application d'emprunt permettant de gérer les prêts 
 
 
 
-Fonctionnalités CRUD
+**Fonctionnalités CRUD**
 
-Objets
+**Objets**
 
 •	Liste des articles: Affiche tous les articles disponibles avec leur titre, format et une image associée.
+
 •	Ajouter un article: Permet d'ajouter un nouvel article avec son titre, format et une image.
+
 •	Supprimer un article: Permet de supprimer un article existant.
-Inscrits
+
+
+**Inscrits**
+
 •	Liste des inscrits: Affiche tous les inscrits avec leur numéro d'adhérent, nom et prénom.
+
 •	Nouvelle inscription: Permet d'ajouter un nouvel inscrit avec son nom et prénom.
+
 •	Modifier un inscrit: Permet de modifier les informations d'un inscrit existant.
-Emprunts
+
+
+**Emprunts**
+
 •	Liste des emprunts: Affiche tous les emprunts en cours avec le titre de l'objet emprunté, le nom de l'inscrit, la date d'emprunt et la date de retour prévue.
+
 •	Emprunter un objet: Permet à un inscrit d'emprunter un objet disponible.
+
 •	Retourner un objet: Permet de marquer un objet emprunté comme retourné.
+
  
-Instructions pour exécuter le projet localement
+**Instructions pour exécuter le projet localement**
 1.	Prérequis:
 •	Assurez-vous que vous disposez d'un environnement de développement PHP (par exemple, XAMPP, WAMP, MAMP) installé sur votre système.
 2.	Téléchargement du Projet:
